@@ -1,0 +1,12 @@
+{% extends 'core/base.html' %}
+{% block content %}
+
+
+    <main style="color: white;text-align: center;margin-top: 250px;margin-bottom: 400px" role="main" class="inner cover">
+        <h1 class="cover-heading">MyMovieWebsite</h1>
+        <p class="lead">This my webiste where can join only my friends with my username and password</p>
+        <p class="lead">
+          <a href="{% url 'login' %}" class="btn btn-lg btn-secondary">Login</a>
+        </p>
+      </main>
+{% endblock %}
